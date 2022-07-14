@@ -17,7 +17,7 @@
 4. 代码上传后可在微信官方审核上线，需要注意，由于该程序使用到wx.getLocation获取用户位置，需要先申请使用该api后方可通过审核，
 5. wx.getLocation只能获取到用户的经纬度，为了获取到用户的准确位置（包括城市街道等），需要调用第三方服务进行逆地址解析。该项目使用的腾讯地图API
    调用腾讯地图API的具体步骤可分为以下三个步骤：
-  （1）打开[腾讯地图位置服务]https://lbs.qq.com/，申请开发者密钥，开通webserviceAPI服务，下载微信小程序JavaScriptSDK；
+  （1）打开[腾讯地图位置服务](https://lbs.qq.com/，申请开发者密钥，开通webserviceAPI服务，下载微信小程序JavaScriptSDK)；
   （2）打开小程序官方网站，在设置中的开发设置中设置request合法域名，添加https://apis.map.qq.com；
   （3）把下载的javascriptsdk放入小程序miniprogram/lib/qqmap-wx-jssdk路径中，并在miniprogram/pages/crdj/crdj.js里引入。
 # 成果展示
