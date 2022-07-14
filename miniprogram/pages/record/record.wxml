@@ -1,0 +1,22 @@
+<view class="padding ">
+ <view class="cu-list menu-avatar">
+    <view id="itemRecord" class="cu-item" wx:for="{{recordList}}" wx:key="index">
+      <view class="cu-avatar round lg" style="background-image:url(https://i.postimg.cc/zDVxMHGz/2022-07-13-174216.png);"></view>
+      <view class="content">
+        <view class="text-grey">申请人：{{item.username}}</view>
+        <view class="text-grey"></view>
+        <view class="text-grey">申请进出：{{item.access}}</view>
+        <view class="text-gray text-sm flex">
+          <text class="text-blue">
+							<text class=" text-red"></text>体温：{{item.temperature}}
+          </text>
+        </view>
+       </view>
+      
+      <view class="action">
+        <!-- <view class="text-grey text-xs">22:20</view> -->
+        <!-- <view class="cu-tag round bg-grey sm">5</view> -->
+      </view>
+    </view>
+  </view>
+</view>

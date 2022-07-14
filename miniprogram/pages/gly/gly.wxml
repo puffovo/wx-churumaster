@@ -1,0 +1,35 @@
+<!--miniprogram/pages/gly/gly.wxml-->
+<!-- <text>miniprogram/pages/gly/gly.wxml</text> -->
+<!-- <view class="bg-white margin shadow">
+  <view class='header'>
+    <text class="title">管理员请先登录</text>
+  </view>
+  <view class='body'>
+    <form bindsubmit='submit'>
+      <view class="text-grey">
+        <text>用户名：</text>
+        <input placeholder='账号' name="username" value='admin'></input>
+      </view>
+      <view class='password'>
+        <text>密  码：</text>
+        <input password='true' name="pwd" value='123'></input>
+      </view>
+      <view class="padding flex flex-direction">
+      <button form-type="submit" class="cu-btn bg-white lg">登录</button>
+    </view>
+    </form>
+  </view>
+</view> -->
+<form bindsubmit="formSubmit">
+    <view class="cu-form-group margin-top">
+      <view class="title">学校名称</view>
+      <input placeholder="请输入地点(武汉大学)" name="location"></input>
+    </view>
+    <view class="cu-form-group">
+      <view class="title">出入日期</view>
+      <input placeholder="年/月/日(2022/7/13)" name="time"></input>
+    </view>
+    <view class="padding flex flex-direction">
+      <button form-type="submit" class="cu-btn bg-blue lg">查询</button>
+    </view>
+</form>

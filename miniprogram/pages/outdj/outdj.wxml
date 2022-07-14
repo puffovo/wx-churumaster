@@ -1,0 +1,78 @@
+<!--miniprogram/pages/outdj/outdj.wxml-->
+<!-- <text>miniprogram/pages/outdj/outdj.wxml</text> -->
+
+<view class="padding">
+  <form bindsubmit="formSubmit">
+    <view class="cu-form-group margin-top">
+      <view class="title">学校名称</view>
+      <input placeholder="请输入学校名称" name="names"></input>
+    </view>
+    <view class="cu-form-group">
+      <view class="title">用户姓名</view>
+      <input placeholder="请输入申请人姓名" name="usernames"></input>
+    </view>
+    <view class="cu-form-group">
+      <view class="title">申请日期</view>
+      <input placeholder="请输入申请日期（年/月/日）" name="time"></input>
+    </view>
+    <view class="cu-form-group" bindtap="getlocal">
+      <view class="title">获取位置</view>
+    </view>
+  
+
+    <radio-group class="block margin-top" bindchange="swiperChange">
+
+      <view class="cu-form-group">
+        <view class="title">申请出门</view>
+        <radio checked="{{checked}}" class="blue" value="申请出门"></radio>
+      </view>
+      <view class="cu-form-group">
+        <view class="title">申请进入</view>
+        <radio checked="{{checked1}}" class="blue" value="申请进入"></radio>
+      </view>
+    </radio-group>
+
+
+    <view class="cu-form-group margin-top">
+      <view class="title">是否健康</view>
+      <switch class="blue" bindchange="switchChange" value="健康"></switch>
+    </view>
+    <view class="cu-form-group ">
+      <view class="title">今日体温</view>
+      <input name="temperature" placeholder="请输入体温"></input>
+    </view>
+
+
+
+
+    <view class="cu-form-group align-start margin-top">
+      <view class="title">备注内容</view>
+      <textarea name="remark" maxlength="-1" disabled="{{modalName!=null}}" bindinput="textareaBInput"
+        placeholder="请输入备注"></textarea>
+    </view>
+
+
+
+    <view class="padding flex flex-direction">
+      <button form-type="submit" class="cu-btn bg-blue lg">提交</button>
+
+    </view>
+
+
+   <!-- <view class="padding flex flex-direction">
+     
+<button size="mini" type="default" bindtap="onQuery">查询记录</button>
+<text class="code" wx:if="{{queryResult}}">{{queryResult}}</text>
+
+
+    </view> -->
+
+
+
+  </form>
+
+  <!-- <view class="padding flex flex-direction">
+  <button class="cu-btn bg-blue lg">提交</button>
+  
+</view> -->
+</view>

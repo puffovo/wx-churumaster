@@ -1,0 +1,130 @@
+{
+  "miniprogramRoot": "miniprogram/",
+  "cloudfunctionRoot": "cloudfunctions/",
+  "setting": {
+    "urlCheck": true,
+    "es6": true,
+    "enhance": true,
+    "postcss": true,
+    "preloadBackgroundData": false,
+    "minified": true,
+    "newFeature": true,
+    "coverView": true,
+    "nodeModules": true,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "useMultiFrameRuntime": false,
+    "useApiHook": false,
+    "useApiHostProcess": false,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "useIsolateContext": false,
+    "userConfirmedBundleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "minifyWXSS": true,
+    "disableUseStrict": false,
+    "minifyWXML": true,
+    "showES6CompileOption": false,
+    "useCompilerPlugins": false,
+    "ignoreUploadUnusedFiles": true,
+    "lazyloadPlaceholderEnable": false,
+    "uglifyFileName": false,
+    "useStaticServer": true
+  },
+  "appid": "wx17f8e8ca7bb79829",
+  "projectname": "churu-master",
+  "libVersion": "2.8.1",
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "cloudfunctionTemplateRoot": "cloudfunctionTemplate/",
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "db guide",
+          "pathName": "pages/databaseGuide/databaseGuide",
+          "query": ""
+        },
+        {
+          "name": "pages/center/center",
+          "pathName": "pages/center/center",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/access/access",
+          "pathName": "pages/access/access",
+          "query": "community=ceshi",
+          "scene": 1011
+        },
+        {
+          "name": "pages/areainfo/areainfo",
+          "pathName": "pages/areainfo/areainfo",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/linkus/linkus",
+          "pathName": "pages/linkus/linkus",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/arealist/arealist",
+          "pathName": "pages/arealist/arealist",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/qrcode/qrcode",
+          "pathName": "pages/qrcode/qrcode",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/access/access",
+          "pathName": "pages/access/access",
+          "query": "scene=74b140b45e3e5f450c38f151527c94a0",
+          "scene": 1011
+        },
+        {
+          "name": "pages/record/record",
+          "pathName": "pages/record/record",
+          "query": "scene=74b140b45e3e5f450c38f151527c94a0",
+          "scene": null
+        },
+        {
+          "name": "pages/weui/msg/msg",
+          "pathName": "pages/weui/msg/msg",
+          "query": "scene=74b140b45e3e5f450c38f151527c94a0",
+          "scene": null
+        },
+        {
+          "name": "pages/result/success/success",
+          "pathName": "pages/result/success/success",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  },
+  "compileType": "miniprogram",
+  "srcMiniprogramRoot": "miniprogram/",
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
+  },
+  "description": "项目配置文件，详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html"
+}

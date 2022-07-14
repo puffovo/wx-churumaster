@@ -1,0 +1,34 @@
+<view class="padding">
+<form bindsubmit="formSubmit">
+	<view class="cu-form-group margin-top">
+		<view class="title">学生姓名</view>
+		<input name="username" value="{{username}}" placeholder=" 请输入姓名"></input>
+	</view>
+<!-- 	<view class="cu-form-group">
+		<view class="title">身份证号</view>
+		<input name="idcard" value="{{idcard}}" placeholder="请输入身份证号码"></input>
+	</view> -->
+  <view class="cu-form-group">
+		<view class="title">手机号码</view>
+		<input name="phonenumber" value="{{phonenumber}}" placeholder="请输入手机号码"></input>
+	</view>
+  <!-- <view class="cu-form-group">
+		<view class="title">验证码</view>
+		<input placeholder="请输入验证码"></input>
+		<button size="mini" class="cu-btn bg-blue  " >验证码</button>
+	</view> -->
+  <view class="cu-form-group">
+		<view class="title">学号</view>
+		<input name="carnumber" value="{{carnumber}}" placeholder="请输入学号"></input>
+	</view>
+  <view class="cu-form-group">
+		<view class="title">寝室地址</view>
+		<input name="qsaddress" value="{{address}}" placeholder="请输入楼号单元寝室号"></input>
+	</view>
+
+<view class=" flex flex-direction margin-top-xl">
+  <button formType="submit"  class="cu-btn bg-blue lg shadow">{{button}}</button>
+  
+</view>
+</form>
+</view>

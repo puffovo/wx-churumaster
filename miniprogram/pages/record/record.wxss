@@ -1,0 +1,5 @@
+/* pages/record/record.wxss */
+#itemRecord{
+  display: flex;
+  align-items: flex-start;
+}

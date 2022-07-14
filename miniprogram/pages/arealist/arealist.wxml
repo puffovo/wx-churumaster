@@ -1,0 +1,43 @@
+<view class="">
+
+  <!-- 社区管理页面 -->
+  <view class="padding radius shadow">
+      <view class="cu-list menu text-left solid-top">
+       <!-- <view class="cu-item" bindtap="navaToUserListPage">
+            <view class="content">
+              <text class="text-grey">用户列表</text>
+            </view>
+            <view class="action text-xxl">
+             <view class="cuIcon-group "></view>
+            </view>
+          </view> -->
+          <view class="cu-item" bindtap="navToRecordPage">
+            <view class="content">
+              <text class="text-grey">出入日志</text>
+            </view>
+            <view class="action text-xxl">
+             <view class="cuIcon-copy"></view>
+            </view>
+          </view>
+          <view class="cu-item" bindtap="navToAreaInfoPage">
+            <view class="content">
+              <text class="text-grey">用户信息</text>
+            </view>
+           <view class="action text-xxl">
+             <view class="cuIcon-wenzi "></view>
+            </view>
+          </view>
+          <view class="cu-item" bindtap="navToglyPage">
+            <view class="content">
+              <text class="text-grey">查询记录</text>
+            </view>
+           <view class="action text-xxl">
+             <view class="cuIcon-qrcode "></view>
+            </view>
+          </view>
+        
+        </view>
+
+  </view>
+
+</view>
