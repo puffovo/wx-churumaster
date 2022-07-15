@@ -3,7 +3,7 @@
 # 小程序码
 ps：管理端测试版只能看到自己的出入日志和查询记录嗷~~想要测试管理端建议先写一两条登记信息哦！
 所有人的出入日志暂不开放在前端。
-![小程序码] https://github.com/puffovo/wx-churumaster/blob/main/screenshots/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E7%A0%81.jpg
+![小程序码](https://github.com/puffovo/wx-churumaster/blob/main/screenshots/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E7%A0%81.jpg)
 # 技术栈
 微信开发者工具 + colorui + 云开发
 # 项目部署
